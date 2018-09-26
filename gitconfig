@@ -11,7 +11,6 @@
 
 [core]
   pager = less -FRSX
-	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
 
 [alias]
   co = checkout
@@ -46,6 +45,3 @@
 
 [branch "master"]
   mergeoptions = --no-edit
-[user]
-	email = henrybhaller@gmail.com
-	name = Henry Haller
