@@ -7,3 +7,10 @@ if has("multi_byte")
 else
   echoerr "Sorry, this version of (g)vim was not compiled with +multi_byte"
 endif
+noremap <SPACE> <C-F>
+set diffopt+=vertical " show diffs side by side
+let g:ale_fix_on_save = 1
+let g:ale_linter_aliases = {'vue': ['vue', 'javascript']}
+let g:ale_linters = {'vue': ['eslint', 'vls']}
+filetype plugin indent on
+colorscheme industry 

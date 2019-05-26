@@ -31,3 +31,15 @@ export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
+
+alias dokku-login='ssh root@206.189.194.229'
+
+if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+        source /etc/profile.d/vte.sh
+fi
+
+alias postman='~/bin/Postman/Postman'
+export PATH=$PATH:~/.yarn/bin
+alias ngrok8080="ngrok http 8080 -host-header="localhost:8080""
+alias browser-sync="~/node_modules/.bin/browser-sync"
